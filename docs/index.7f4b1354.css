@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    width: 200px;
+    height: 300px
+}
+
+.navbar {
+    background-color: purple;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1rem;
+    padding: 30px;
+    display: flex
+}
+
+.navbar-p {
+    cursor: pointer;
+    font-family: Georgia, Times New Roman, Times, serif
+}
+
+.navbar-p:hover {
+    opacity: .5;
+    text-decoration: underline;
+    transition: all .2s
+}
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: purple;
+    padding: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+.contact-p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cart-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 200px;
+    display: flex
+}
+
+.cart-items {
+    flex-direction: column;
+    gap: 1rem;
+    display: flex
+}
+
+.cartbutton-container {
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 1rem;
+    display: flex
+}
+
+button {
+    cursor: pointer;
+    width: 5rem;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-top: 10px
+}
+
+button:hover {
+    color: #fff;
+    background-color: #48816b
+}
+
+.product-container {
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    display: flex
+}
+
+.product-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+    display: flex
+}
+
+.addtocart-btn {
+    cursor: pointer;
+    width: 5rem;
+    color: #fff;
+    background-color: #41403d;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.addtocart-btn:hover {
+    opacity: .7;
+    color: #fff;
+    background-color: #41403d;
+    transition: all .3s
+}
+
+.outofstock-p {
+    color: red
+}
+
+.filter-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    display: flex
+}
+
+/*# sourceMappingURL=index.7f4b1354.css.map */
